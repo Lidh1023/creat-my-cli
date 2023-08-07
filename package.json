@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "avl": "bin/avl",
+    "avl-add": "bin/avl-add",
+    "avl-delete": "bin/avl-delete",
+    "avl-list": "bin/avl-list",
+    "avl-init": "bin/avl-init"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
